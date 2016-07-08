@@ -28,12 +28,18 @@
                 <option value="Ventrue">Ventrue</option>
                 </select>
               </div>
-            <div id="Gen"></div>
+            <div id="Gen">
               <input type="radio" id="neonate" name="gen" value="Neonate" />
               <input type="radio" id="ancilla" name="gen" value="Ancilla" />
               <input type="radio" id="pretender" name="gen" value="Pretender Elder" />
               <input type="radio" id="master" name="gen" value="Master Elder" />
               <input type="radio" id="luminary" name="gen" value="Luminary Elder" />
+            </div>
+            <div id="Sect">
+                <input type="radio" id="neonate" name="sect" value="Camarilla" />
+                <input type="radio" id="ancilla" name="sect" value="Anarch" />
+                <input type="radio" id="pretender" name="sect" value="Sabbat" />
+              </div>
           </div>
           <div id="Traits">
               <div id="physical">
@@ -42,10 +48,133 @@
               <br/> <input type="checkbox" id="Dex" value="Dexterity"/>
               <br/> <input type="checkbox" id="Sta" value="Stamina"/>
               </div>
-              
+              <div id="Social">
+              Social Foci
+                <br/> <input type="checkbox" id="Apr" value="Appearance" />
+                <br/> <input type="checkbox" id="Man" value="Manipulation"/>
+                <br/> <input type="checkbox" id="Cha" value="Charisma"/>
+              </div>
+               <div id="Mental">
+              Mental Foci
+                <br/> <input type="checkbox" id="Per" value="Perception" />
+                <br/> <input type="checkbox" id="Wit" value="Wits"/>
+                <br/> <input type="checkbox" id="Int" value="Intellegence"/>
+              </div>
           </div> 
-          <div id-"Merits"></div>
-          <div id="Disciplines"></div>
+          <div id-"Merits">
+            <div id="ClanMerits">
+                <div id="Assamite">
+                    <input type="checkbox" id="Surprise_Attack" value="Surprise Attack"/>
+                </div>
+                <div id="Bruja">
+                    <input type="checkbox" id="Brotherhood" value="Brotherhood"/>
+                    <br/><input type="checkbox" id="Burning_Wrath" value="Burning Wrath"/>
+                 </div>
+                <div id="Gangarel">
+                    <input type="checkbox" id="Shape_of_beasts_wrath" value="Shape Of Beast's Wrath" />
+                </div>
+                <div id="Nosferatu">
+                    <input type="checkbox" id="Unnatural_Adaptation" value="Unnatural Adaptation: Grappling Appendages" />
+                </div>
+                <div id="Toreador">
+                    <input type="checkbox" id="Dancers_Grace" value="Dancer's Grace"/>
+                </div>
+                <div id="Salubri">
+                    <input type="checkbox" id="Righteous_Fury" value="Righeous Fury"/>
+                </div>
+        
+            </div>
+            <div id="SectMerits">
+              <div id="Sabbat">
+                <input type="checkbox" id="Pack_Player" value="Pack Player"/>
+                </div>
+                <div id="Anarch">
+                <input type="checkbox" id="Wild_One" value="Wild One"/>
+                </div>
+              </div>
+            <div id="GeneralMerits">
+              <input type="checkbox" id="Ambidextrous" value="Ambidextrous"/>
+              <br/><input type="checkbox" id="Daredevil" value="Daredevil"/>
+              <br/><input type="checkbox" id="Burning_Wrath" value="Burning Wrath"/>
+              <br/><input type="checkbox" id="Infernal_Power_Demonic_Fire" value="Infernal Poer: Demonic Fire"/>
+              <br/><input type="checkbox" id="Infernal_Power_Unholy_Regeneration" value="Inferanl Power: Unholy Regeneration"/>
+              <br/><input type="checkbox" id="Skill_Aptitude_Brawl" value="Skill Aptitude: Brawl"/>
+              <br/><input type="checkbox" id="Skill_Aptitude_Melee" value="Skill Aptitude: Melee"/>
+              <br/><input type="checkbox" id="Skill_Aptitude_Firearms" value="Skill Aptitude: Firearms"/>
+              <br/><input type="checkbox" id="Sippery_Customer" value="Slippery_Customer"/>
+              </div>
+        </div>
+          <div id="Disciplines">
+            <div id="Animalism">
+                Animalism
+                <br/><input type="checkbox" id="Draw_out_the_Beast" value="Draw out the Beast"/>
+              </div>
+            <div id="Celerity">
+              Celerity
+                <br/><input type="checkbox" id="Alacrity" value="Alacrity"/>
+                <br/><input type="checkbox" id="Swiftness" value="Swiftness"/>
+                <br/><input type="checkbox" id="Rapidity" value="Rapidity"/>
+                <br/><input type="checkbox" id="Legerity" value="Legerity"/>
+                <br/><input type="checkbox" id="Fleetness" value="Fleetness"/>
+                <br/><input type="checkbox" id="Quickness" value="Quickness"/>
+                <br/><input type="checkbox" id="Projectile" value="Projectile"/>
+              </div>
+              <div id="Daimonion">
+                Daimonion
+                <br/><input type="checkbox" id="Condemnation" value="Condemnation"/>
+              </div>
+              <div id="Dementation">
+                Dementation
+                <br/><input type="checkbox" id="Haunting" value="Haunting"/>
+                <br/><input type="checkbox" id="Total_Insantiy" value="Total Insantiy"/>
+                <br/><input type="checkbox" id="Deny" value="Deny"/>
+              </div>
+              <div id="Obtenebration">
+                Obtenebration
+                <br/><input type="checkbox" id="Shroud_of_Night" value="Shroud of Night"/>
+                <br/><input type="checkbox" id="Arms_of_the_Abysss" value="Armos of the Abyy"/>
+                <br/><input type="checkbox" id="Black_Metamorphosis" value="Black Metamorphosis"/>
+                <br/><input type="checkbox" id="Shadow_Twin" value="Shadow Twin"/>
+              </div>
+              <div id="Potence">
+                Potence
+                 <br/><input type="checkbox" id="Prowess" value="Prowess"/>
+                   <br/><input type="checkbox" id="Might" value="Might"/>
+                   <br/><input type="checkbox" id="Vigor" value="Vigor"/>
+                   <br/><input type="checkbox" id="Intensity" value="Intensity"/>
+                   <br/><input type="checkbox" id="Puissance" value="Puissance"/>
+                   <br/><input type="checkbox" id="Force" value="Force"/>
+                   <br/><input type="checkbox" id="Flick" value="Flick"/>
+              </div>
+              <div id="Protean">
+                Protean
+                <br/><input type="checkbox" id="Feral_Claws" value="Feral_Claws"/>
+                <br/><input type="checkbox" id="Shape_of_the_Beast_Fight" value="Shape of the Beast: Fight Form"/>
+                <br/><input type="checkbox" id="Shape_of_the_Beast_Flight" value="Shape of the Beast: Flight Form"/>
+              </div>
+              <div id="Quietus">
+                Quietus
+                <br/><input type="checkbox" id="Scorpions_Touch" value="Scorpoin's Touch"/>
+                <br/><input type="checkbox" id="Baals_Caress" value="TBaal's Caress"/>
+                <br/><input type="checkbox" id="Baals_Bloody_Talons" value="Baal's Bloody Talons"/>
+              </div>
+              <div id="Serpentis">
+                Serpentis
+                <br/><input type="checkbox" id="Skin_of_the_Adder" value="Skin of the Adder"/>
+              </div>
+              <div id="Thanatosis">
+                Thanatosis
+                <br/><input type="checkbox" id="Hags_Wrinkle" value="Hag's Wrinkle"/>
+                <br/><input type="checkbox" id="Withering" value="Withering"/>
+                <br/><input type="checkbox" id="Corrupt_the_Flesh" value="Corrupt the Flesh"/>
+              </div>
+              <div id="Valreen">
+                Valreen
+                <br/><input type="checkbox" id="Armor_of_Caines_Fury" value="Armor of Caine's Fury"/>
+                <br/><input type="checkbox" id="Vengence_of_Samael" value="Vengence of Samael"/>
+              </div>
+          </div>
+          <div id="Equipment"></div>
           <div id="Results"></div>
       </body>
   
